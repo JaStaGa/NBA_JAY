@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Betting Insights</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>NBA Betting Insights</h1>
+        <p>Your source for player stats and game insights.</p>
+    </header>
+
+
+    <section id="search-bar">
+        <h2>Search Player Stats</h2>
+        <form id="search-form">
+            <label for="player-name">Player Name:</label>
+            <input type="text" id="player-name" placeholder="Enter player name" required>
+    
+            <!-- Bet search moved below player name -->
+            <label for="bet">Bet (e.g., over 30 points):</label>
+            <input type="text" id="bet" placeholder="Enter bet (e.g., over 30 pts)" required>
+    
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+
+    <main>
+        <section id="player-stats">
+            <h2>Player Stats</h2>
+            <div id="stats-container">
+                <!-- Player stats will be displayed here -->
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
